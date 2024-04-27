@@ -93,6 +93,9 @@ vim.g.maplocalleader = ' '
 -- Set to true if you have a Nerd Font installed and selected in the terminal
 vim.g.have_nerd_font = false
 
+vim.keymap.set('n', '<leader>y', '+y')
+vim.api.nvim_set_option("clipboard", "unnamed")
+
 -- [[ Setting options ]]
 require 'options'
 
