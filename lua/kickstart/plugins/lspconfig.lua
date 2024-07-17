@@ -175,6 +175,7 @@ return {
             'terraform-vars',
           },
         },
+        html = {},
         lua_ls = {
           -- cmd = {...},
           -- filetypes = { ...},
