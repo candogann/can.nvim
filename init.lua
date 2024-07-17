@@ -94,7 +94,7 @@ vim.g.maplocalleader = ' '
 vim.g.have_nerd_font = true
 
 -- vim.keymap.set('n', '<leader>y', '+y')
-vim.api.nvim_set_option('clipboard', 'unnamed')
+-- vim.api.nvim_set_option('clipboard', 'unnamed')
 
 -- [[ Setting options ]]
 require 'options'
@@ -104,7 +104,6 @@ require 'keymaps'
 
 -- [[ Install `lazy.nvim` plugin manager ]]
 require 'lazy-bootstrap'
-
 -- [[ Configure and install plugins ]]
 require 'lazy-plugins'
 
