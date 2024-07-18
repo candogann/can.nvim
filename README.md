@@ -1,4 +1,4 @@
-# Can's personal setup for nvimr
+# Can's personal setup for nvimr 
 
 ## Why?
 
